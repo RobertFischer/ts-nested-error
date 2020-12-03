@@ -44,5 +44,6 @@
     "nested-error",
     "typescript",
     "ttypescript"
-  ]
+  ],
+  "private": false
 }
