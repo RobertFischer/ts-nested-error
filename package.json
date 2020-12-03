@@ -1,5 +1,5 @@
 {
-  "name": "ts-nested-error",
+  "name": "@RobertFischer/ts-nested-error",
   "version": "1.2.0",
   "description": "Lightweight xplatform nested error implementation with native TypeScript support.",
   "main": "build/nested-error.js",
@@ -12,7 +12,8 @@
     "lint": "        tslint --project tsconfig.json",
     "transpile": "   ttsc",
     "start": "       node build/index.js",
-    "dev": "         ts-node-dev --compiler ttypescript --respawn --inspect -- src/nested-error.ts"
+    "dev": "         ts-node-dev --compiler ttypescript --respawn --inspect -- src/nested-error.ts",
+    "prepack": "     npm run build"
   },
   "devDependencies": {
     "@types/jest": "^26.0.16",
