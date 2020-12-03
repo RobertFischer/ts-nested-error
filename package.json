@@ -1,5 +1,5 @@
 {
-  "name": "@RobertFischer/ts-nested-error",
+  "name": "@robertfischer/ts-nested-error",
   "version": "1.2.0",
   "description": "Lightweight xplatform nested error implementation with native TypeScript support.",
   "main": "build/nested-error.js",
