@@ -8,7 +8,7 @@
     "bump-deps": "   ncu --upgrade && npm install",
     "test": "        jest && cat coverage/lcov.info | coveralls",
     "test:debug": "  node --inspect-brk node_modules/.bin/jest --runInBand",
-    "clean": "       rimraf build",
+    "clean": "       rimraf build *ts-nested-error*.tgz",
     "lint": "        tslint --project tsconfig.json",
     "transpile": "   ttsc",
     "start": "       node build/index.js",
